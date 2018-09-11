@@ -2,10 +2,13 @@
 It's the final project for SYSU Computer Vision 2017 Spring.
 
 ## Example
-![](https://github.com/dalegebit/CImg_OCR/blob/master/pics/1.jpg)
+<img src="https://github.com/dalegebit/CImg_OCR/blob/master/pics/1.jpg" width="400">
+
 ![](https://github.com/dalegebit/CImg_OCR/blob/master/result/1.jpg)
-![](https://github.com/dalegebit/CImg_OCR/blob/master/pics/2.jpg)
-![](https://github.com/dalegebit/CImg_OCR/blob/master/result/2.jpg)
+
+<img src="https://github.com/dalegebit/CImg_OCR/blob/master/pics/5.jpg" width="400">
+
+![](https://github.com/dalegebit/CImg_OCR/blob/master/result/5.jpg)
 
 ## Algorithm
 ### Basic Algorithm 
@@ -51,5 +54,6 @@ Use Visual Studio 2015 to open the *.sln file.
 ## Testing
 Tap `final.exe`, the test program with run. For each image in `pics/`, the A4 image cropped from it, the result of BotHat transformtion, the binary image after ostu auto thresholding and the final digit recognizing result will be displayed successively in the test program. Tap `train.exe` in `train/` you can train a new svm model with MNIST and do test on the test set. The test result includes accuracy, error rate in general and for each class, etc. If there is any problem with these two programs, please open the visual studio project by tapping `final.sln` and regenerate them, the new released programs will appear in `Release/`.
 
-
+## To SYSU Students
+I had a very bad experience in this class because there was a very irresponsible TA who never examined the source code and scored me below 3/4 of my classmates for not having a pretty pdf report because it was generated from markdown. I was angry. So feel free to use my code, and don't forget to star :)
 
