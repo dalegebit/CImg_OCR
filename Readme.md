@@ -55,5 +55,5 @@ Use Visual Studio 2015 to open the *.sln file.
 Tap `final.exe`, the test program with run. For each image in `pics/`, the A4 image cropped from it, the result of BotHat transformtion, the binary image after ostu auto thresholding and the final digit recognizing result will be displayed successively in the test program. Tap `train.exe` in `train/` you can train a new svm model with MNIST and do test on the test set. The test result includes accuracy, error rate in general and for each class, etc. If there is any problem with these two programs, please open the visual studio project by tapping `final.sln` and regenerate them, the new released programs will appear in `Release/`.
 
 ## To SYSU Students
-I had a very bad experience in this class because there was a very irresponsible TA who never examined the source code and scored me below 3/4 of my classmates for not having a pretty pdf report because it was generated from markdown. I was angry. So feel free to use my code, and don't forget to star :)
+I had a very bad experience in this class because there was a very irresponsible TA who never examined the source code and prefered you spending all your time writing a pretty report. I was angry. So feel free to use my code, and don't forget to star :)
 
